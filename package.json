@@ -2,7 +2,10 @@
   "name": "find-root-package",
   "version": "0.0.1",
   "description": "Find the furthest package.json",
-  "author": "Jason Karns <jason@karns.name> (http://jasonkarns.com)",
+  "author": "Justin Searls",
+  "contributors": [
+    "Jason Karns"
+  ],
   "main": "find_root_package.coffee",
   "scripts": {
     "test": "grunt spec"
@@ -16,5 +19,10 @@
     "temp": "~0.7.0",
     "mkdirp": "~0.3.5"
   },
-  "license": "MIT"
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://testdouble.mit-license.org"
+    }
+  ]
 }
