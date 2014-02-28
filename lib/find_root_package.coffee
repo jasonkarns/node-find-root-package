@@ -3,7 +3,7 @@ path = require('path')
 
 exports.findTopPackageJson = findTopPackageJson = (dir) ->
   current = path.resolve(dir)
-  grandparent = path.resolve(dir, "..", "..")
+  grandparent = path.resolve(dir, "../..")
   if current == grandparent || !hasPackageJson(grandparent)
     if hasPackageJson(current)
       current
