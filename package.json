@@ -7,6 +7,13 @@
     "Jason Karns"
   ],
   "main": "lib/find_root_package.coffee",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/jasonkarns/node-find-root-package.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jasonkarns/node-find-root-package/issues"
+  },
   "scripts": {
     "test": "grunt spec"
   },
