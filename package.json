@@ -6,7 +6,7 @@
   "contributors": [
     "Jason Karns"
   ],
-  "main": "find_root_package.coffee",
+  "main": "lib/find_root_package.coffee",
   "scripts": {
     "test": "grunt spec"
   },
